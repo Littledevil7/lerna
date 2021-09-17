@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'add' ],
+0 silly argv   scope: 'gpnode',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'lodash' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/tanwei/Desktop/testProject/lerna
+3 error HttpErrorGeneral: 403 Forbidden - GET https://npm.homepartners.com/lodash
+3 error     at res.buffer.catch.then.body (/Users/tanwei/Desktop/testProject/lerna/node_modules/npm-registry-fetch/check-response.js:95:15)

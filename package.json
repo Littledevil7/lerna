@@ -1,0 +1,30 @@
+{
+  "name": "lerna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/@gp0320/*"
+  ],
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Littledevil7/lerna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Littledevil7/lerna/issues"
+  },
+  "homepage": "https://github.com/Littledevil7/lerna#readme"
+}
