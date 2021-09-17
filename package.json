@@ -6,7 +6,7 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "packages/@gp0320/*"
+    "packages/Autistic/*"
   ],
   "useWorkspaces": true,
   "npmClient": "yarn",
